@@ -1,11 +1,11 @@
-# 2.2.3Challenge
+# 2.2.3 Challenge: Compressed Data Transmitter
 Challenge developed by AI based on a prompt containing all of the essential understanding behind 2.2.3
 
-Challenge: Compressed Data Transmitter
 
-Objective: Create a Python application that sends a text file over a network using sockets, compressing the data before transmission and decompressing it upon reception.
 
-Requirements:
+# Objective: Create a Python application that sends a text file over a network using sockets, compressing the data before transmission and decompressing it upon reception.
+
+## Requirements:
 
 Compression:
 Implement a simple compression algorithm of your choice. (Suggestions: Run-length encoding (RLE), simple substitution, or even using the zlib library).
