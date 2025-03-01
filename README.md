@@ -1,7 +1,11 @@
 # 2.2.3 Challenge: Compressed Data Transmitter
 Challenge developed by AI based on a prompt containing all of the essential understanding behind 2.2.3
 
+# Solve
 
+1. Fix the code to the correct format. There is code before the actual code block and indents that were not correct from the beginning.
+1. Test both programs with a simple text file. Ensure the text file is in the same dir as the rest of the files.
+1. Both client and server can be ran from the same computer. It is not necessary to use two systems to test the code out. Once it is achieved in one system a second system can be involved.
 
 # Objective: Create a Python application that sends a text file over a network using sockets, compressing the data before transmission and decompressing it upon reception.
 
