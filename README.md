@@ -26,7 +26,7 @@ Code Examples and Guidance:
 
 1. Server-Side (server.py):
 
-Python
+```Python
 
 import socket
 import sys
@@ -71,9 +71,10 @@ if __name__ == "__main__":
     host = '127.0.0.1'  # Localhost
     port = 12345
     run_server(host, port)
+```
 2. Client-Side (client.py):
 
-Python
+```Python
 
 import socket
 import sys
@@ -109,12 +110,15 @@ if __name__ == "__main__":
     host = '127.0.0.1'  # Localhost
     port = 12345
     file_path = "test_file.txt"  # Replace with your file
+```
 
-    #Create a test file.
+#Create a test file.
+
     with open(file_path, "w") as f:
         f.write("This is a test file. This file will be compressed and sent over the network.")
 
     run_client(host, port, file_path)
+
 Key Concepts to Emphasize:
 
 Socket Creation: socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -125,6 +129,7 @@ Receiving Data: recv()
 Closing Sockets: close()
 Compression/Decompression: Implementing a simple algorithm or using zlib.
 Error handling: using try and except blocks.
+
 Enhancements (Optional):
 
 Implement a more efficient compression algorithm.
